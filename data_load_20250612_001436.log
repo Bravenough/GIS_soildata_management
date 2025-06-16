@@ -1,0 +1,61 @@
+2025-06-12 00:14:43,063 - WARNING - 开始删除所有数据表...
+2025-06-12 00:14:43,083 - INFO - 已删除表: anomaly_data
+2025-06-12 00:14:43,086 - INFO - 已删除表: statistical_reports
+2025-06-12 00:14:43,090 - INFO - 已删除表: operation_logs
+2025-06-12 00:14:43,093 - INFO - 已删除表: historical_monitoring_data
+2025-06-12 00:14:43,096 - INFO - 已删除表: fertilizer_plans
+2025-06-12 00:14:43,099 - INFO - 已删除表: crop_suitability
+2025-06-12 00:14:43,102 - INFO - 已删除表: soil_quality_assessment
+2025-06-12 00:14:43,107 - INFO - 已删除表: trace_elements
+2025-06-12 00:14:43,109 - INFO - 已删除表: soil_test_data
+2025-06-12 00:14:43,113 - INFO - 已删除表: soil_samples
+2025-06-12 00:14:43,116 - INFO - 已删除表: monitoring_stations
+2025-06-12 00:14:43,119 - INFO - 已删除表: users
+2025-06-12 00:14:43,123 - INFO - 已删除表: fertilizer_products
+2025-06-12 00:14:43,126 - INFO - 已删除表: crop_types
+2025-06-12 00:14:43,131 - INFO - 已删除表: soil_types
+2025-06-12 00:14:43,134 - INFO - 已删除表: regions
+2025-06-12 00:14:43,138 - INFO - 已删除表: data_dictionary
+2025-06-12 00:14:43,138 - INFO - 开始创建数据库表结构...
+2025-06-12 00:14:43,139 - INFO - 数据库表结构创建完成
+2025-06-12 00:14:43,139 - INFO - 开始装载所有数据表...
+2025-06-12 00:14:43,139 - INFO - 开始装载表: data_dictionary
+2025-06-12 00:14:43,458 - INFO - 表 data_dictionary 装载完成: 500 -> 500 行
+2025-06-12 00:14:43,458 - INFO - 开始装载表: regions
+2025-06-12 00:14:43,746 - INFO - 表 regions 装载完成: 1000 -> 1000 行
+2025-06-12 00:14:43,747 - INFO - 开始装载表: soil_types
+2025-06-12 00:14:43,796 - INFO - 表 soil_types 装载完成: 50 -> 50 行
+2025-06-12 00:14:43,797 - INFO - 开始装载表: crop_types
+2025-06-12 00:14:43,932 - INFO - 表 crop_types 装载完成: 500 -> 500 行
+2025-06-12 00:14:43,932 - INFO - 开始装载表: fertilizer_products
+2025-06-12 00:14:44,263 - INFO - 表 fertilizer_products 装载完成: 800 -> 800 行
+2025-06-12 00:14:44,263 - INFO - 开始装载表: users
+2025-06-12 00:14:45,069 - INFO - 表 users 装载完成: 2000 -> 2000 行
+2025-06-12 00:14:45,069 - INFO - 开始装载表: monitoring_stations
+2025-06-12 00:14:45,986 - INFO - 表 monitoring_stations 装载完成: 2000 -> 2000 行
+2025-06-12 00:14:45,987 - INFO - 开始装载表: soil_samples
+2025-06-12 00:14:48,883 - INFO - 表 soil_samples 装载完成: 10000 -> 10000 行
+2025-06-12 00:14:48,884 - INFO - 开始装载表: soil_test_data
+2025-06-12 00:14:52,447 - INFO - 表 soil_test_data 装载完成: 10000 -> 10000 行
+2025-06-12 00:14:52,448 - INFO - 开始装载表: trace_elements
+2025-06-12 00:14:54,893 - INFO - 表 trace_elements 装载完成: 8000 -> 8000 行
+2025-06-12 00:14:54,895 - INFO - 开始装载表: soil_quality_assessment
+2025-06-12 00:14:57,825 - INFO - 表 soil_quality_assessment 装载完成: 10000 -> 10000 行
+2025-06-12 00:14:57,825 - INFO - 开始装载表: crop_suitability
+2025-06-12 00:15:10,563 - INFO - 表 crop_suitability 装载完成: 50000 -> 50000 行
+2025-06-12 00:15:10,565 - INFO - 开始装载表: fertilizer_plans
+2025-06-12 00:15:14,057 - INFO - 表 fertilizer_plans 装载完成: 10000 -> 10000 行
+2025-06-12 00:15:14,058 - INFO - 开始装载表: historical_monitoring_data
+2025-06-12 00:15:48,534 - INFO - 表 historical_monitoring_data 装载完成: 100000 -> 100000 行
+2025-06-12 00:15:48,541 - INFO - 开始装载表: operation_logs
+2025-06-12 00:16:02,357 - INFO - 表 operation_logs 装载完成: 50000 -> 50000 行
+2025-06-12 00:16:02,362 - INFO - 开始装载表: statistical_reports
+2025-06-12 00:16:03,054 - INFO - 表 statistical_reports 装载完成: 1000 -> 1000 行
+2025-06-12 00:16:03,055 - INFO - 开始装载表: anomaly_data
+2025-06-12 00:16:04,237 - INFO - 表 anomaly_data 装载完成: 3000 -> 3000 行
+2025-06-12 00:16:04,237 - INFO - 数据装载完成: 17/17 个表成功装载
+2025-06-12 00:16:04,239 - INFO - 开始验证数据装载结果...
+2025-06-12 00:16:04,574 - WARNING - 表 historical_monitoring_data: 数据库 100000 行, CSV 189581 行
+2025-06-12 00:16:04,656 - WARNING - 表 operation_logs: 数据库 50000 行, CSV 79625 行
+2025-06-12 00:16:04,668 - WARNING - 表 statistical_reports: 数据库 1000 行, CSV 10992 行
+2025-06-12 00:16:04,677 - WARNING - 表 anomaly_data: 数据库 3000 行, CSV 8376 行

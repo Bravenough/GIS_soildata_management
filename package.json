@@ -1,0 +1,45 @@
+{
+  "name": "soil-data-backend",
+  "version": "1.0.0",
+  "description": "基于GIS的土壤数据评估及分析信息查询系统后端服务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "dev:h5": "npx http-server . -p 8081 -c-1",
+    "serve": "npx http-server . -p 8081 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-db": "node test-db.js"
+  },
+  "keywords": [
+    "soil",
+    "gis",
+    "data",
+    "analysis",
+    "mysql",
+    "express"
+  ],
+  "author": "土壤数据系统开发团队",
+  "license": "MIT",
+  "dependencies": {
+    "@dcloudio/uni-app-plus": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-cli-shared": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-h5": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-mp-alipay": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-mp-baidu": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-mp-qq": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-mp-toutiao": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-mp-weixin": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-quickapp-webview": "^2.0.2-4060620250520001",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.5"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

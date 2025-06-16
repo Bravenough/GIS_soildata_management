@@ -1,0 +1,106 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "基于GIS的土壤数据评估及分析信息查询系统"
+			}
+		},
+		{
+			"path": "pages/soil-data/soil-data",
+			"style": {
+				"navigationBarTitleText": "土壤数据管理"
+			}
+		},
+		{
+			"path": "pages/query/query",
+			"style": {
+				"navigationBarTitleText": "土壤数据查询"
+			}
+		},
+		{
+			"path": "pages/assessment/assessment",
+			"style": {
+				"navigationBarTitleText": "土壤评估分析"
+			}
+		},
+		{
+			"path": "pages/distribution/distribution",
+			"style": {
+				"navigationBarTitleText": "土壤分布情况"
+			}
+		},
+		{
+			"path": "pages/comparison/comparison",
+			"style": {
+				"navigationBarTitleText": "土壤数据对比"
+			}
+		},
+		{
+			"path": "pages/heatmap/heatmap",
+			"style": {
+				"navigationBarTitleText": "土壤热力图分析"
+			}
+		},
+		{
+			"path": "pages/soil-analysis/soil-analysis",
+			"style": {
+				"navigationBarTitleText": "土壤智能分析",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/history-data/history-data",
+			"style": {
+				"navigationBarTitleText": "历史数据查看"
+			}
+		},
+		{
+			"path": "pages/data-reports/sample-count-report/sample-count-report",
+			"style": {
+				"navigationBarTitleText": "样本总数详情"
+			}
+		},
+		{
+			"path": "pages/data-reports/province-coverage-report/province-coverage-report",
+			"style": {
+				"navigationBarTitleText": "覆盖省份详情"
+			}
+		},
+		{
+			"path": "pages/data-reports/data-integrity-report/data-integrity-report",
+			"style": {
+				"navigationBarTitleText": "数据完整率报告"
+			}
+		},
+		{
+			"path": "pages/data-reports/anomaly-points-report/anomaly-points-report",
+			"style": {
+				"navigationBarTitleText": "异常点位列表"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "基于GIS的土壤数据评估及分析信息查询系统",
+		"navigationBarBackgroundColor": "#4d7bce",
+		"backgroundColor": "#F5F7FA",
+		"leftWindow": true
+	},
+	"leftWindow": {
+		"path": "windows/left-window.vue",
+		"style": {
+			"width": "240px"
+		},
+		"matchMedia": {
+			"minWidth": 768
+		}
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@/components/uni-$1/uni-$1.vue"
+		}
+	},
+	"uniIdRouter": {}
+}

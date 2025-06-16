@@ -1,0 +1,12 @@
+{
+  "soil_diagnosis_dataset": {
+    "file_name": "soil_diagnosis_complete.json",
+    "formatting": "alpaca",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    },
+    "num_samples": 5000
+  }
+}
